@@ -11,18 +11,21 @@ namespace CodeChallenge.API.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string JobTitle { get; set; }
-        public string MailingAdress { get; set; }
+        public string MailingAddress { get; set; }
+        public int DepartmentId { get; set; }
+
 
         public Employee()
         { 
         }
-        public Employee(int id, string firstName, string lastName, string jobTitle, string mailingAdress)
+        public Employee(int id, string firstName, string lastName, string jobTitle, string mailingAddress, int departmentId)
         {
             Id = id;
             FirstName = firstName;
             LastName = lastName;
             JobTitle = jobTitle;
-            MailingAdress = mailingAdress;
+            MailingAddress = mailingAddress;
+            DepartmentId = departmentId;
         }
     }
 }

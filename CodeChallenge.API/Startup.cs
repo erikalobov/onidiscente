@@ -50,6 +50,7 @@ namespace CodeChallenge.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

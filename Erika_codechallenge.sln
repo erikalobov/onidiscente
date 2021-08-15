@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.API", "CodeChallenge.API\CodeChallenge.API.csproj", "{0E064B18-2812-42B1-AD0D-A861130E2304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.API", "CodeChallenge.API\CodeChallenge.API.csproj", "{0E064B18-2812-42B1-AD0D-A861130E2304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{D44A40AB-FA38-4601-9BD7-E728C6D67B6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0E064B18-2812-42B1-AD0D-A861130E2304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E064B18-2812-42B1-AD0D-A861130E2304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E064B18-2812-42B1-AD0D-A861130E2304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44A40AB-FA38-4601-9BD7-E728C6D67B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44A40AB-FA38-4601-9BD7-E728C6D67B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44A40AB-FA38-4601-9BD7-E728C6D67B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44A40AB-FA38-4601-9BD7-E728C6D67B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
